@@ -9,7 +9,7 @@ I tried to write it from scratch without any third-party library.
 only clone the repo and use it.
 
 ## Picture
-
+![](https://github.com/amir-ardalanuk/Swift-Calendar-and-Scheduler-/blob/master/Jun-13-2020%2017-24-20.gif)
 
 
 ## Contributing
