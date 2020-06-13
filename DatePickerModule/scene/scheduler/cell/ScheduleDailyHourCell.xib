@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="ScheduleDailyHourCell" customModule="DatePickerModule" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="190"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="395" height="190"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z8J-UD-ya9">
+                        <rect key="frame" x="0.0" y="0.0" width="395" height="190"/>
+                        <subviews>
+                            <view tag="-1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1De-vW-tsi" userLabel="leadingView">
+                                <rect key="frame" x="0.0" y="0.0" width="0.5" height="201"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="0.5" id="6jL-B2-1E1"/>
+                                </constraints>
+                            </view>
+                            <view tag="-1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tqG-Ip-h2B" userLabel="tralingView">
+                                <rect key="frame" x="394.5" y="0.0" width="0.5" height="201"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="0.5" id="vLE-lA-o9c"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="1De-vW-tsi" secondAttribute="bottom" priority="800" constant="-11" id="Kid-Cf-rIO"/>
+                            <constraint firstItem="1De-vW-tsi" firstAttribute="top" secondItem="Z8J-UD-ya9" secondAttribute="top" id="V0h-qs-Wx3"/>
+                            <constraint firstAttribute="bottom" secondItem="tqG-Ip-h2B" secondAttribute="bottom" priority="800" constant="-11" id="Zfy-ao-Xam"/>
+                            <constraint firstItem="1De-vW-tsi" firstAttribute="leading" secondItem="Z8J-UD-ya9" secondAttribute="leading" id="fzB-F1-Thq"/>
+                            <constraint firstItem="tqG-Ip-h2B" firstAttribute="top" secondItem="Z8J-UD-ya9" secondAttribute="top" id="kGI-QQ-TIr"/>
+                            <constraint firstAttribute="trailing" secondItem="tqG-Ip-h2B" secondAttribute="trailing" id="oB5-9X-x0H"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Z8J-UD-ya9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="aqg-1S-Km5"/>
+                <constraint firstAttribute="trailing" secondItem="Z8J-UD-ya9" secondAttribute="trailing" id="izk-Un-gEI"/>
+                <constraint firstAttribute="bottom" secondItem="Z8J-UD-ya9" secondAttribute="bottom" priority="700" id="jk5-yJ-Nke"/>
+                <constraint firstItem="Z8J-UD-ya9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="keE-uh-yW3"/>
+            </constraints>
+            <size key="customSize" width="395" height="190"/>
+            <point key="canvasLocation" x="381.8840579710145" y="200.22321428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>

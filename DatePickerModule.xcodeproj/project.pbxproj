@@ -7,6 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40FE4292442BC70009768A8 /* ExCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40FE4262442BC6F009768A8 /* ExCollectionView.swift */; };
+		F40FE42A2442BC70009768A8 /* ExTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40FE4272442BC70009768A8 /* ExTableView.swift */; };
+		F40FE42B2442BC70009768A8 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40FE4282442BC70009768A8 /* ReusableView.swift */; };
+		F40FE4302442BE00009768A8 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40FE42F2442BE00009768A8 /* CalendarViewController.swift */; };
+		F40FE4322442BE3A009768A8 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40FE4312442BE3A009768A8 /* NibLoadable.swift */; };
+		F41239E1244569AA00BD8E89 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41239E0244569AA00BD8E89 /* ScheduleViewController.swift */; };
+		F41239E3244569BA00BD8E89 /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41239E2244569BA00BD8E89 /* ScheduleViewModel.swift */; };
+		F41239E72445736200BD8E89 /* WeekDayBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41239E62445736200BD8E89 /* WeekDayBarView.swift */; };
+		F41239E9244573B100BD8E89 /* Connectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41239E8244573B100BD8E89 /* Connectable.swift */; };
+		F41239EB244574A000BD8E89 /* WeekDayBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41239EA244574A000BD8E89 /* WeekDayBarView.xib */; };
+		F41239ED2445757100BD8E89 /* SimpleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41239EC2445757100BD8E89 /* SimpleLabel.swift */; };
+		F42D6A512448812A000CDB3B /* CalenderViewTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D6A502448812A000CDB3B /* CalenderViewTheme.swift */; };
+		F4374D1A2442C079005A2505 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D192442C079005A2505 /* TableCell.swift */; };
+		F4374D1C2442C0C0005A2505 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D1B2442C0C0005A2505 /* CollectionCell.swift */; };
+		F4374D212442C174005A2505 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D1F2442C174005A2505 /* CalendarCell.swift */; };
+		F4374D222442C174005A2505 /* CalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4374D202442C174005A2505 /* CalendarCell.xib */; };
+		F4374D252442C237005A2505 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D242442C237005A2505 /* ViewModel.swift */; };
+		F4374D272442C25A005A2505 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D262442C25A005A2505 /* MainViewModel.swift */; };
+		F4374D292442C406005A2505 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D282442C406005A2505 /* CalendarViewModel.swift */; };
+		F4374D2C2442C482005A2505 /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D2B2442C482005A2505 /* protocol.swift */; };
+		F4374D2E2442C4D6005A2505 /* ViewModelContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D2D2442C4D6005A2505 /* ViewModelContract.swift */; };
+		F4374D302442C651005A2505 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D2F2442C651005A2505 /* Mapper.swift */; };
+		F4374D332442C6B2005A2505 /* DateEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D322442C6B2005A2505 /* DateEntity.swift */; };
+		F4374D372442CE95005A2505 /* ViewModelOutPut.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D362442CE95005A2505 /* ViewModelOutPut.swift */; };
+		F4374D382442D6F1005A2505 /* ExDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D342442CB27005A2505 /* ExDate.swift */; };
+		F4374D3B2442D7B6005A2505 /* CalendarHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D392442D7B6005A2505 /* CalendarHeaderCell.swift */; };
+		F4374D3C2442D7B6005A2505 /* CalendarHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4374D3A2442D7B6005A2505 /* CalendarHeaderCell.xib */; };
+		F4374D3E2442D835005A2505 /* WeekDayEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D3D2442D835005A2505 /* WeekDayEntity.swift */; };
+		F4374D412444214C005A2505 /* GroupCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D402444214C005A2505 /* GroupCalendarViewController.swift */; };
+		F4374D43244421C3005A2505 /* GroupCalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D42244421C3005A2505 /* GroupCalendarViewModel.swift */; };
+		F4374D4524443724005A2505 /* CalendarViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4374D4424443724005A2505 /* CalendarViewProtocols.swift */; };
+		F44F1BEA244713FA00778F66 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F1BE9244713FA00778F66 /* CustomView.swift */; };
+		F44F1BEE2447144B00778F66 /* Dashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F1BED2447144700778F66 /* Dashable.swift */; };
+		F44F1BEF2447144B00778F66 /* Shadowable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F1BEC2447144700778F66 /* Shadowable.swift */; };
+		F44F1BF324472C0900778F66 /* GroupCalendarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F1BF224472C0900778F66 /* GroupCalendarDelegate.swift */; };
+		F44F1BF624472DE400778F66 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F1BF524472DE400778F66 /* HomeViewController.swift */; };
+		F44F1BF824484FF900778F66 /* ScheduleWeekCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F1BF724484FF900778F66 /* ScheduleWeekCell.swift */; };
+		F44F1BFA244858BF00778F66 /* ScheduleCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F1BF9244858BF00778F66 /* ScheduleCollectionDataSource.swift */; };
 		F494700D244169F900FA2084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F494700C244169F900FA2084 /* AppDelegate.swift */; };
 		F494700F244169F900FA2084 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F494700E244169F900FA2084 /* SceneDelegate.swift */; };
 		F4947011244169F900FA2084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4947010244169F900FA2084 /* ViewController.swift */; };
@@ -14,6 +52,15 @@
 		F4947016244169FC00FA2084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4947015244169FC00FA2084 /* Assets.xcassets */; };
 		F4947019244169FC00FA2084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4947017244169FC00FA2084 /* LaunchScreen.storyboard */; };
 		F4947024244169FC00FA2084 /* DatePickerModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4947023244169FC00FA2084 /* DatePickerModuleTests.swift */; };
+		F494703024416A5100FA2084 /* AADateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F494702F24416A5100FA2084 /* AADateProtocol.swift */; };
+		F494703224417F6700FA2084 /* AADateImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F494703124417F6700FA2084 /* AADateImp.swift */; };
+		F499366224457E4E00E3C64C /* ScheduleWeekDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499366024457E4E00E3C64C /* ScheduleWeekDayCell.swift */; };
+		F499366324457E4E00E3C64C /* ScheduleWeekDayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F499366124457E4E00E3C64C /* ScheduleWeekDayCell.xib */; };
+		F499366524458AF400E3C64C /* DailyHourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499366424458AF400E3C64C /* DailyHourModel.swift */; };
+		F499366824458C5900E3C64C /* ScheduleDailyHourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499366624458C5900E3C64C /* ScheduleDailyHourCell.swift */; };
+		F499366924458C5900E3C64C /* ScheduleDailyHourCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F499366724458C5900E3C64C /* ScheduleDailyHourCell.xib */; };
+		F499366C2445924600E3C64C /* ScheduleHourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499366A2445924600E3C64C /* ScheduleHourCell.swift */; };
+		F499366D2445924600E3C64C /* ScheduleHourCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F499366B2445924600E3C64C /* ScheduleHourCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +74,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F40FE4262442BC6F009768A8 /* ExCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExCollectionView.swift; sourceTree = "<group>"; };
+		F40FE4272442BC70009768A8 /* ExTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExTableView.swift; sourceTree = "<group>"; };
+		F40FE4282442BC70009768A8 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		F40FE42F2442BE00009768A8 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		F40FE4312442BE3A009768A8 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		F41239E0244569AA00BD8E89 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		F41239E2244569BA00BD8E89 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
+		F41239E62445736200BD8E89 /* WeekDayBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayBarView.swift; sourceTree = "<group>"; };
+		F41239E8244573B100BD8E89 /* Connectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectable.swift; sourceTree = "<group>"; };
+		F41239EA244574A000BD8E89 /* WeekDayBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeekDayBarView.xib; sourceTree = "<group>"; };
+		F41239EC2445757100BD8E89 /* SimpleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLabel.swift; sourceTree = "<group>"; };
+		F42D6A502448812A000CDB3B /* CalenderViewTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewTheme.swift; sourceTree = "<group>"; };
+		F4374D192442C079005A2505 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		F4374D1B2442C0C0005A2505 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		F4374D1F2442C174005A2505 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		F4374D202442C174005A2505 /* CalendarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarCell.xib; sourceTree = "<group>"; };
+		F4374D242442C237005A2505 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = DatePickerModule/view/tableView/ViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F4374D262442C25A005A2505 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		F4374D282442C406005A2505 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		F4374D2B2442C482005A2505 /* protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
+		F4374D2D2442C4D6005A2505 /* ViewModelContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelContract.swift; sourceTree = "<group>"; };
+		F4374D2F2442C651005A2505 /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		F4374D322442C6B2005A2505 /* DateEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateEntity.swift; sourceTree = "<group>"; };
+		F4374D342442CB27005A2505 /* ExDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExDate.swift; sourceTree = "<group>"; };
+		F4374D362442CE95005A2505 /* ViewModelOutPut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelOutPut.swift; sourceTree = "<group>"; };
+		F4374D392442D7B6005A2505 /* CalendarHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHeaderCell.swift; sourceTree = "<group>"; };
+		F4374D3A2442D7B6005A2505 /* CalendarHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarHeaderCell.xib; sourceTree = "<group>"; };
+		F4374D3D2442D835005A2505 /* WeekDayEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayEntity.swift; sourceTree = "<group>"; };
+		F4374D402444214C005A2505 /* GroupCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCalendarViewController.swift; sourceTree = "<group>"; };
+		F4374D42244421C3005A2505 /* GroupCalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCalendarViewModel.swift; sourceTree = "<group>"; };
+		F4374D4424443724005A2505 /* CalendarViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewProtocols.swift; sourceTree = "<group>"; };
+		F44F1BE9244713FA00778F66 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		F44F1BEC2447144700778F66 /* Shadowable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadowable.swift; sourceTree = "<group>"; };
+		F44F1BED2447144700778F66 /* Dashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashable.swift; sourceTree = "<group>"; };
+		F44F1BF224472C0900778F66 /* GroupCalendarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCalendarDelegate.swift; sourceTree = "<group>"; };
+		F44F1BF524472DE400778F66 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F44F1BF724484FF900778F66 /* ScheduleWeekCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleWeekCell.swift; sourceTree = "<group>"; };
+		F44F1BF9244858BF00778F66 /* ScheduleCollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCollectionDataSource.swift; sourceTree = "<group>"; };
 		F4947009244169F900FA2084 /* DatePickerModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickerModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F494700C244169F900FA2084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F494700E244169F900FA2084 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +123,15 @@
 		F494701F244169FC00FA2084 /* DatePickerModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePickerModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4947023244169FC00FA2084 /* DatePickerModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerModuleTests.swift; sourceTree = "<group>"; };
 		F4947025244169FC00FA2084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F494702F24416A5100FA2084 /* AADateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AADateProtocol.swift; sourceTree = "<group>"; };
+		F494703124417F6700FA2084 /* AADateImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AADateImp.swift; sourceTree = "<group>"; };
+		F499366024457E4E00E3C64C /* ScheduleWeekDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleWeekDayCell.swift; sourceTree = "<group>"; };
+		F499366124457E4E00E3C64C /* ScheduleWeekDayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleWeekDayCell.xib; sourceTree = "<group>"; };
+		F499366424458AF400E3C64C /* DailyHourModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHourModel.swift; sourceTree = "<group>"; };
+		F499366624458C5900E3C64C /* ScheduleDailyHourCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDailyHourCell.swift; sourceTree = "<group>"; };
+		F499366724458C5900E3C64C /* ScheduleDailyHourCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleDailyHourCell.xib; sourceTree = "<group>"; };
+		F499366A2445924600E3C64C /* ScheduleHourCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleHourCell.swift; sourceTree = "<group>"; };
+		F499366B2445924600E3C64C /* ScheduleHourCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleHourCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +152,202 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F40FE42C2442BC72009768A8 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				F4374D352442CB2B005A2505 /* extension */,
+				F40FE42D2442BC82009768A8 /* protocol */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		F40FE42D2442BC82009768A8 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F44F1BED2447144700778F66 /* Dashable.swift */,
+				F44F1BEC2447144700778F66 /* Shadowable.swift */,
+				F40FE4262442BC6F009768A8 /* ExCollectionView.swift */,
+				F40FE4282442BC70009768A8 /* ReusableView.swift */,
+				F40FE4312442BE3A009768A8 /* NibLoadable.swift */,
+				F40FE4272442BC70009768A8 /* ExTableView.swift */,
+				F41239E8244573B100BD8E89 /* Connectable.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		F40FE42E2442BDDB009768A8 /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				F44F1BF424472DC900778F66 /* home */,
+				F41239DF2445695200BD8E89 /* scheduler */,
+				F41239DE2445693000BD8E89 /* calendarView */,
+				F4947012244169FA00FA2084 /* Main.storyboard */,
+				F4947010244169F900FA2084 /* ViewController.swift */,
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
+		F40FE4332442BF3B009768A8 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				F4374D1E2442C105005A2505 /* cell */,
+				F40FE42F2442BE00009768A8 /* CalendarViewController.swift */,
+				F4374D282442C406005A2505 /* CalendarViewModel.swift */,
+				F4374D4424443724005A2505 /* CalendarViewProtocols.swift */,
+				F42D6A502448812A000CDB3B /* CalenderViewTheme.swift */,
+			);
+			path = calendar;
+			sourceTree = "<group>";
+		};
+		F41239DE2445693000BD8E89 /* calendarView */ = {
+			isa = PBXGroup;
+			children = (
+				F4374D3F24442122005A2505 /* group-calendar */,
+				F40FE4332442BF3B009768A8 /* calendar */,
+			);
+			path = calendarView;
+			sourceTree = "<group>";
+		};
+		F41239DF2445695200BD8E89 /* scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				F499365B24457D3200E3C64C /* cell */,
+				F41239E0244569AA00BD8E89 /* ScheduleViewController.swift */,
+				F41239E2244569BA00BD8E89 /* ScheduleViewModel.swift */,
+			);
+			path = scheduler;
+			sourceTree = "<group>";
+		};
+		F41239E42445720900BD8E89 /* componentView */ = {
+			isa = PBXGroup;
+			children = (
+				F41239E52445721500BD8E89 /* WeekDayBar */,
+			);
+			path = componentView;
+			sourceTree = "<group>";
+		};
+		F41239E52445721500BD8E89 /* WeekDayBar */ = {
+			isa = PBXGroup;
+			children = (
+				F41239E62445736200BD8E89 /* WeekDayBarView.swift */,
+				F41239EA244574A000BD8E89 /* WeekDayBarView.xib */,
+			);
+			path = WeekDayBar;
+			sourceTree = "<group>";
+		};
+		F41239EE2445758A00BD8E89 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				F41239EC2445757100BD8E89 /* SimpleLabel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		F4374D172442BFCC005A2505 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F44F1BEB2447141100778F66 /* View */,
+				F41239EE2445758A00BD8E89 /* Label */,
+				F41239E42445720900BD8E89 /* componentView */,
+				F4374D2A2442C46F005A2505 /* viewController */,
+				F4374D232442C225005A2505 /* viewmodel */,
+				F4374D1D2442C0C4005A2505 /* collectionView */,
+				F4374D182442BFD9005A2505 /* tableView */,
+				F4374D2F2442C651005A2505 /* Mapper.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F4374D182442BFD9005A2505 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				F4374D192442C079005A2505 /* TableCell.swift */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
+		F4374D1D2442C0C4005A2505 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F4374D1B2442C0C0005A2505 /* CollectionCell.swift */,
+			);
+			path = collectionView;
+			sourceTree = "<group>";
+		};
+		F4374D1E2442C105005A2505 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F4374D1F2442C174005A2505 /* CalendarCell.swift */,
+				F4374D202442C174005A2505 /* CalendarCell.xib */,
+				F4374D392442D7B6005A2505 /* CalendarHeaderCell.swift */,
+				F4374D3A2442D7B6005A2505 /* CalendarHeaderCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F4374D232442C225005A2505 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				F4374D242442C237005A2505 /* ViewModel.swift */,
+				F4374D262442C25A005A2505 /* MainViewModel.swift */,
+				F4374D2D2442C4D6005A2505 /* ViewModelContract.swift */,
+				F4374D362442CE95005A2505 /* ViewModelOutPut.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		F4374D2A2442C46F005A2505 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				F4374D2B2442C482005A2505 /* protocol.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		F4374D312442C6A1005A2505 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F4374D322442C6B2005A2505 /* DateEntity.swift */,
+				F4374D3D2442D835005A2505 /* WeekDayEntity.swift */,
+				F499366424458AF400E3C64C /* DailyHourModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F4374D352442CB2B005A2505 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				F4374D342442CB27005A2505 /* ExDate.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		F4374D3F24442122005A2505 /* group-calendar */ = {
+			isa = PBXGroup;
+			children = (
+				F4374D402444214C005A2505 /* GroupCalendarViewController.swift */,
+				F4374D42244421C3005A2505 /* GroupCalendarViewModel.swift */,
+				F44F1BF224472C0900778F66 /* GroupCalendarDelegate.swift */,
+			);
+			path = "group-calendar";
+			sourceTree = "<group>";
+		};
+		F44F1BEB2447141100778F66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F44F1BE9244713FA00778F66 /* CustomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F44F1BF424472DC900778F66 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				F44F1BF524472DE400778F66 /* HomeViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
 		F4947000244169F900FA2084 = {
 			isa = PBXGroup;
 			children = (
@@ -79,10 +369,13 @@
 		F494700B244169F900FA2084 /* DatePickerModule */ = {
 			isa = PBXGroup;
 			children = (
+				F4374D312442C6A1005A2505 /* model */,
+				F4374D172442BFCC005A2505 /* view */,
+				F40FE42E2442BDDB009768A8 /* scene */,
+				F40FE42C2442BC72009768A8 /* utility */,
+				F494702E24416A0800FA2084 /* date */,
 				F494700C244169F900FA2084 /* AppDelegate.swift */,
 				F494700E244169F900FA2084 /* SceneDelegate.swift */,
-				F4947010244169F900FA2084 /* ViewController.swift */,
-				F4947012244169FA00FA2084 /* Main.storyboard */,
 				F4947015244169FC00FA2084 /* Assets.xcassets */,
 				F4947017244169FC00FA2084 /* LaunchScreen.storyboard */,
 				F494701A244169FC00FA2084 /* Info.plist */,
@@ -97,6 +390,30 @@
 				F4947025244169FC00FA2084 /* Info.plist */,
 			);
 			path = DatePickerModuleTests;
+			sourceTree = "<group>";
+		};
+		F494702E24416A0800FA2084 /* date */ = {
+			isa = PBXGroup;
+			children = (
+				F494702F24416A5100FA2084 /* AADateProtocol.swift */,
+				F494703124417F6700FA2084 /* AADateImp.swift */,
+			);
+			path = date;
+			sourceTree = "<group>";
+		};
+		F499365B24457D3200E3C64C /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F499366024457E4E00E3C64C /* ScheduleWeekDayCell.swift */,
+				F499366124457E4E00E3C64C /* ScheduleWeekDayCell.xib */,
+				F499366624458C5900E3C64C /* ScheduleDailyHourCell.swift */,
+				F499366724458C5900E3C64C /* ScheduleDailyHourCell.xib */,
+				F499366A2445924600E3C64C /* ScheduleHourCell.swift */,
+				F499366B2445924600E3C64C /* ScheduleHourCell.xib */,
+				F44F1BF724484FF900778F66 /* ScheduleWeekCell.swift */,
+				F44F1BF9244858BF00778F66 /* ScheduleCollectionDataSource.swift */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +497,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F499366924458C5900E3C64C /* ScheduleDailyHourCell.xib in Resources */,
 				F4947019244169FC00FA2084 /* LaunchScreen.storyboard in Resources */,
 				F4947016244169FC00FA2084 /* Assets.xcassets in Resources */,
+				F4374D3C2442D7B6005A2505 /* CalendarHeaderCell.xib in Resources */,
+				F499366D2445924600E3C64C /* ScheduleHourCell.xib in Resources */,
 				F4947014244169FA00FA2084 /* Main.storyboard in Resources */,
+				F4374D222442C174005A2505 /* CalendarCell.xib in Resources */,
+				F499366324457E4E00E3C64C /* ScheduleWeekDayCell.xib in Resources */,
+				F41239EB244574A000BD8E89 /* WeekDayBarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +523,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F499366C2445924600E3C64C /* ScheduleHourCell.swift in Sources */,
+				F4374D382442D6F1005A2505 /* ExDate.swift in Sources */,
+				F41239E72445736200BD8E89 /* WeekDayBarView.swift in Sources */,
+				F40FE42A2442BC70009768A8 /* ExTableView.swift in Sources */,
+				F44F1BF824484FF900778F66 /* ScheduleWeekCell.swift in Sources */,
 				F4947011244169F900FA2084 /* ViewController.swift in Sources */,
+				F4374D2E2442C4D6005A2505 /* ViewModelContract.swift in Sources */,
+				F44F1BEA244713FA00778F66 /* CustomView.swift in Sources */,
+				F40FE4292442BC70009768A8 /* ExCollectionView.swift in Sources */,
+				F42D6A512448812A000CDB3B /* CalenderViewTheme.swift in Sources */,
+				F4374D3E2442D835005A2505 /* WeekDayEntity.swift in Sources */,
+				F499366824458C5900E3C64C /* ScheduleDailyHourCell.swift in Sources */,
+				F40FE4322442BE3A009768A8 /* NibLoadable.swift in Sources */,
+				F40FE42B2442BC70009768A8 /* ReusableView.swift in Sources */,
+				F44F1BEF2447144B00778F66 /* Shadowable.swift in Sources */,
+				F41239E3244569BA00BD8E89 /* ScheduleViewModel.swift in Sources */,
+				F44F1BEE2447144B00778F66 /* Dashable.swift in Sources */,
+				F4374D372442CE95005A2505 /* ViewModelOutPut.swift in Sources */,
+				F44F1BF324472C0900778F66 /* GroupCalendarDelegate.swift in Sources */,
+				F4374D272442C25A005A2505 /* MainViewModel.swift in Sources */,
+				F494703024416A5100FA2084 /* AADateProtocol.swift in Sources */,
+				F4374D252442C237005A2505 /* ViewModel.swift in Sources */,
+				F4374D2C2442C482005A2505 /* protocol.swift in Sources */,
+				F4374D292442C406005A2505 /* CalendarViewModel.swift in Sources */,
+				F494703224417F6700FA2084 /* AADateImp.swift in Sources */,
+				F4374D3B2442D7B6005A2505 /* CalendarHeaderCell.swift in Sources */,
+				F4374D1A2442C079005A2505 /* TableCell.swift in Sources */,
+				F40FE4302442BE00009768A8 /* CalendarViewController.swift in Sources */,
+				F4374D412444214C005A2505 /* GroupCalendarViewController.swift in Sources */,
+				F41239E1244569AA00BD8E89 /* ScheduleViewController.swift in Sources */,
+				F41239ED2445757100BD8E89 /* SimpleLabel.swift in Sources */,
+				F4374D332442C6B2005A2505 /* DateEntity.swift in Sources */,
 				F494700D244169F900FA2084 /* AppDelegate.swift in Sources */,
+				F499366524458AF400E3C64C /* DailyHourModel.swift in Sources */,
 				F494700F244169F900FA2084 /* SceneDelegate.swift in Sources */,
+				F4374D212442C174005A2505 /* CalendarCell.swift in Sources */,
+				F41239E9244573B100BD8E89 /* Connectable.swift in Sources */,
+				F4374D1C2442C0C0005A2505 /* CollectionCell.swift in Sources */,
+				F44F1BF624472DE400778F66 /* HomeViewController.swift in Sources */,
+				F4374D43244421C3005A2505 /* GroupCalendarViewModel.swift in Sources */,
+				F4374D302442C651005A2505 /* Mapper.swift in Sources */,
+				F499366224457E4E00E3C64C /* ScheduleWeekDayCell.swift in Sources */,
+				F44F1BFA244858BF00778F66 /* ScheduleCollectionDataSource.swift in Sources */,
+				F4374D4524443724005A2505 /* CalendarViewProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

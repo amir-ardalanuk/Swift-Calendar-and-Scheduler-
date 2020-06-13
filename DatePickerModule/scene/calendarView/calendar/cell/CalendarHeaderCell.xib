@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CalendarHeaderCell" customModule="DatePickerModule" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="242" height="248"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="242" height="248"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gv-id-kZC" customClass="CustomView" customModule="DatePickerModule" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="242" height="248"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9s-Yu-bse">
+                                <rect key="frame" x="101.5" y="114.5" width="39.5" height="19.5"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="V9s-Yu-bse" firstAttribute="centerY" secondItem="7gv-id-kZC" secondAttribute="centerY" id="bb6-z5-UHu"/>
+                            <constraint firstItem="V9s-Yu-bse" firstAttribute="centerX" secondItem="7gv-id-kZC" secondAttribute="centerX" id="het-8K-gRI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="7gv-id-kZC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="FJY-f1-NSF"/>
+                <constraint firstAttribute="trailing" secondItem="7gv-id-kZC" secondAttribute="trailing" id="HOb-Jl-wBa"/>
+                <constraint firstAttribute="bottom" secondItem="7gv-id-kZC" secondAttribute="bottom" id="fXJ-lw-8b7"/>
+                <constraint firstItem="7gv-id-kZC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hXh-cU-VtS"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="242" height="248"/>
+            <connections>
+                <outlet property="lblHeader" destination="V9s-Yu-bse" id="ahn-SI-qQr"/>
+                <outlet property="vwContainer" destination="7gv-id-kZC" id="lA0-Fe-Nbq"/>
+            </connections>
+            <point key="canvasLocation" x="271.01449275362319" y="219.64285714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ScheduleViewModel.getWeekDays():ScheduleViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ScheduleDailyHourCell.setSideborderHide(hide:):ScheduleDailyHourCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.contentView.subviews.first?.filter{ $0.tag &lt; 0}">
+            </PersistentString>
+            <PersistentString
+               value = " self.contentView.subviews.filter{ $0.tag &lt; 0}">
+            </PersistentString>
+            <PersistentString
+               value = "self.contentView.subviews.first?.subviews.filter{$0.tag &lt; 0}">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GroupCalendarViewController.pageViewController(_:viewControllerBefore:):GroupCalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(viewModel.getPrevMonth()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScheduleViewController.tableView(_:heightForRowAt:):ScheduleViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = " tableView.cellForRow(at: indexPath)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GroupCalendarViewModel.updateCurrentDate(_:):GroupCalendarViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CalendarCell.vwContainer.didset:CalendarCell.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AADateRepository.firstDayOf(month:):AADateImp.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DatePickerModuleTests.test_getFirstDateOfMonth():DatePickerModuleTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScheduleViewController.tableView(_:cellForRowAt:):ScheduleViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewModel.updateSelected():CalendarViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "nextMonth.first">
+            </PersistentString>
+            <PersistentString
+               value = "strongDate.date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GroupCalendarViewController.pageViewController(_:viewControllerAfter:):GroupCalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.currentDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
